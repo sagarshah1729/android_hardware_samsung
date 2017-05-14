@@ -23,6 +23,7 @@ LOCAL_CFLAGS += -DSAMSUNG_NEXT_GEN_MODEM
 endif
 
 LOCAL_MODULE:= libsecril-client
+LOCAL_C_INCLUDES := hardware/ril/include
 LOCAL_PRELINK_MODULE := false
 
 include $(BUILD_SHARED_LIBRARY)
